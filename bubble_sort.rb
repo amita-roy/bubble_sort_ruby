@@ -19,6 +19,10 @@ def bubble_sort_by(arr)
   while i < arr.length - 1
     if yield(arr[i], arr[i + 1]).positive?
       arr[i], arr[i + 1] = arr[i + 1], arr[i]
-    
+    i = 0
+      else
+        i += 1
+      end
+      p arr
   end
 end
