@@ -7,7 +7,6 @@ def bubble_sort(arr)
     else
       i += 1
     end
-    p arr
   end
   arr
 end
@@ -23,7 +22,6 @@ def bubble_sort_by(arr)
     else
       i += 1
     end
-    p arr
   end
   arr
 end
